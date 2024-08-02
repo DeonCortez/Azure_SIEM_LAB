@@ -1,9 +1,4 @@
 # Azure_SIEM_LAB
-Here's a revised version of the tutorial, retaining the core instructions but with some adjusted wording:
-
----
-
-# SIEM & Honeypot | Microsoft Azure Sentinel Attack Map
 
 ## Overview
 SIEM, or Security Information and Event Management, is a comprehensive system used to identify, analyze, and address security threats before they impact operations. It aggregates log data from various network sources like firewalls, IDS/IPS, and identity systems, enabling security teams to monitor, prioritize, and respond to threats in real time. A honeypot, on the other hand, is a security tool designed to attract attackers within a controlled environment. It simulates a vulnerable system to observe attacker behavior, analyze threats, and enhance security measures. This tutorial demonstrates how to collect honeypot attack logs, query them using a SIEM, and visualize the data on a world map based on event count and geolocation.
