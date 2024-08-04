@@ -17,7 +17,7 @@ SIEM, or Security Information and Event Management, is a comprehensive system us
 - Network Security Groups (Layer 4/3 Firewall in Azure)
 - Remote Desktop Protocol (RDP)
 - 3rd Party API: ipgeolocation.io
-- Custom PowerShell Script by Josh Madakor
+- Custom PowerShell Script
 
 ## Step 1: Set Up a Microsoft Azure Subscription
 - Sign up for Azure to receive a $200 credit valid for 30 days.
@@ -98,7 +98,7 @@ SIEM, or Security Information and Event Management, is a comprehensive system us
 ## Step 8: Run the Security Log Exporter Script
 1. Open PowerShell ISE on the VM.
 2. Configure Edge without signing in.
-3. Paste the provided PowerShell script (by Josh Madakor) into PowerShell ISE and save it as "Log_Exporter" on the Desktop.
+3. Paste the provided PowerShell script into PowerShell ISE and save it as "Log_Exporter" on the Desktop.
 4. Register for a free IP Geolocation API account for 1,000 API calls per day or a paid plan for more calls.
 5. Insert the API key into line 2 of the script and save.
 6. Execute the script to continuously produce log data.
